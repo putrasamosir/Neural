@@ -68,8 +68,8 @@ header h1 {
 }
 
 .profile img {
-    border-radius: 5%;
-    max-width: 150px;
+    border-radius: 50%;
+    max-width: 300px;
     height: auto;
 }
 
