@@ -121,6 +121,30 @@ footer {
     font-size: 0.8rem;
 }
 
+
+/* Style the contact links section */
+.contact-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1px;
+}
+
+.contact-link {
+    text-align: center;
+    color: #333;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    margin: 10px;
+    width: 100px;
+}
+
+
+
+
+
 /* Media query for small screens (up to 600px) */
 @media screen and (max-width: 600px) {
     .about-me {
