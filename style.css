@@ -117,8 +117,47 @@ footer {
     background-color: #181818;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
     font-size: 0.8rem;
+}
+
+/* Style the custom horizontal line */
+.horizontal-line {
+    width: 88%; /* Adjust the width as needed */
+    height: 2px;
+    background-color: #c2c2c2;
+    margin:  auto; /* Center the line horizontally */
+}
+
+
+
+/* Style the image grid container */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid with equal width columns */
+    gap: 20px; /* Add spacing between images */
+    max-width: 800px; /* Limit the maximum width of the grid */
+    margin: 0 auto; /* Center the grid horizontally */
+    padding: 20px;
+}
+
+/* Style the individual images within the grid */
+.image {
+    overflow: hidden;
+    border: 0px solid #ddd; /* Add a border to each image */
+    border-radius: 5px; /* Add rounded corners to the images */
+}
+
+.image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Style for landscape images */
+.image img.landscape {
+    max-width: 100%; /* Limit the width of landscape images */
+    height: auto; /* Maintain aspect ratio */
 }
 
 
@@ -129,6 +168,7 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     padding: 1px;
+    
 }
 
 .contact-link {
@@ -139,6 +179,7 @@ footer {
     border-radius: 1px;
     margin: 10px;
     width: 100px;
+    text-decoration: none;
 }
 
 
