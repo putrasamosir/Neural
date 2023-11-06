@@ -1,206 +1,125 @@
 /* Reset some default styles */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
 /* Style for the navigation bar */
 .navbar {
-    background-color: #181818;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
+  background-color: #181818;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
 }
 
 /* Style for the logo image */
 .navbar .logo img {
-    width: 30px; /* Set the width of the logo image */
-    height: auto; /* Auto-adjust the height to maintain aspect ratio */
-    border-radius: 5%;
+  width: 30px; /* Set the width of the logo image */
+  height: auto; /* Auto-adjust the height to maintain aspect ratio */
+  border-radius: 5%;
 }
 
 /* Style for the text in the navbar */
 .navbar .text {
-    color: #fff;
-    font-size: 18px;
-    margin-left: 20px;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 20px;
 }
-
-
 
 /* Reset some default styles for better consistency */
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
-/* Apply a background color and set a font family for the entire page */
-body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-}
-
-/* Style the header section */
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-header h1 {
-    font-size: 2rem;
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
 
 /* Style the about me section */
 .about-me {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 
 .profile {
-    text-align: center;
+  text-align: center;
 }
 
 .profile img {
-    border-radius: 50%;
-    max-width: 300px;
-    height: auto;
+  border-radius: 50%;
+  max-width: 300px;
+  height: auto;
 }
 
 .profile h2 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .profile p {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .bio {
-    flex: 1;
-    padding: 20px;
+  flex: 1;
+  padding: 20px;
 }
 
 .bio p {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 /* Style the contact information section */
 .contact-info {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
-    margin: 20px;
-    border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 20px;
+  border-radius: 5px;
 }
 
 .contact-info h3 {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 .contact-info ul {
-    list-style: none;
+  list-style: none;
 }
 
 .contact-info li {
-    font-size: 1rem;
-    margin: 5px 0;
-}
-
-/* Style the footer */
-footer {
-    background-color: #181818;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    font-size: 0.8rem;
+  font-size: 1rem;
+  margin: 5px 0;
 }
 
 /* Style the custom horizontal line */
 .horizontal-line {
-    width: 88%; /* Adjust the width as needed */
-    height: 2px;
-    background-color: #c2c2c2;
-    margin:  auto; /* Center the line horizontally */
+  width: 50%; /* Adjust the width as needed */
+  height: 1px;
+  background-color: #d3d3d3;
+  margin: auto; /* Center the line horizontally */
 }
-
-
-
-/* Style the image grid container */
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid with equal width columns */
-    gap: 20px; /* Add spacing between images */
-    max-width: 800px; /* Limit the maximum width of the grid */
-    margin: 0 auto; /* Center the grid horizontally */
-    padding: 20px;
-}
-
-/* Style the individual images within the grid */
-.image {
-    overflow: hidden;
-    border: 0px solid #ddd; /* Add a border to each image */
-    border-radius: 5px; /* Add rounded corners to the images */
-}
-
-.image img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-/* Style for landscape images */
-.image img.landscape {
-    max-width: 100%; /* Limit the width of landscape images */
-    height: auto; /* Maintain aspect ratio */
-}
-
-
-/* Style the contact links section */
-.contact-links {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 1px;
-    
-}
-
-.contact-link {
-    text-align: center;
-    color: #333;
-    padding: 1px;
-    border: 1px solid #ccc;
-    border-radius: 1px;
-    margin: 10px;
-    width: 100px;
-    text-decoration: none;
-}
-
-
-
-
 
 /* Media query for small screens (up to 600px) */
 @media screen and (max-width: 600px) {
-    .about-me {
-        flex-direction: column;
-    }
-    .profile img {
-        max-width: 80px;
-    }
-    .profile h2 {
-        font-size: 1rem;
-    }
-    .profile p {
-        font-size: 0.8rem;
-    }
-    .bio p {
-        font-size: 0.8rem;
-    }
+  .about-me {
+    flex-direction: column;
+  }
+  .profile img {
+    max-width: 80px;
+  }
+  .profile h2 {
+    font-size: 1rem;
+  }
+  .profile p {
+    font-size: 0.8rem;
+  }
+  .bio p {
+    font-size: 0.8rem;
+  }
 }
