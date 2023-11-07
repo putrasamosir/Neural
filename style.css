@@ -75,27 +75,10 @@ li {
   font-size: 1rem;
 }
 
-/* Style the contact information section */
-.contact-info {
-  background-color: #fff;
-  padding: 20px;
-  border: 1px solid #ccc;
-  margin: 20px;
-  border-radius: 5px;
+.no-underline {
+  text-decoration: none;
 }
 
-.contact-info h3 {
-  font-size: 1.25rem;
-}
-
-.contact-info ul {
-  list-style: none;
-}
-
-.contact-info li {
-  font-size: 1rem;
-  margin: 5px 0;
-}
 
 /* Style the custom horizontal line */
 .horizontal-line {
@@ -104,6 +87,8 @@ li {
   background-color: #d3d3d3;
   margin: auto; /* Center the line horizontally */
 }
+
+
 
 /* Media query for small screens (up to 600px) */
 @media screen and (max-width: 600px) {
