@@ -83,8 +83,8 @@ li {
 
 /* Style the custom horizontal line */
 .horizontal-line {
-  width: 50%; /* Adjust the width as needed */
-  height: 1px;
+  width: 30%; /* Adjust the width as needed */
+  height: 2px;
   background-color: #d3d3d3;
   margin: auto; /* Center the line horizontally */
 }
@@ -133,7 +133,7 @@ li {
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
-  padding: 20px;
+  padding: 0px;
 }
 
 
